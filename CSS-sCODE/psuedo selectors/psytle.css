@@ -1,0 +1,32 @@
+body{
+   background-color:rgba(73, 13, 176, 0.711);
+}
+.Links{
+   width:100px;
+   height:100px;
+
+   background-color:rgba(97, 225, 97, 0.622);
+   color:red;
+   list-style:none;
+   display:inline-block;
+   text-align:center;
+}
+.Links li a{
+   text-decoration:none;
+   color:blue;
+   cursor:pointer;
+   
+
+}
+.Links a:hover{
+  font-size:1.1em;
+  margin-bottom:5px;
+  background-color:rgba(238, 238, 130, 0.374);
+  
+}
+a:visited{
+   color:red;
+}
+a:active{
+   color:aqua;
+}

@@ -1,0 +1,22 @@
+.a{
+   background-color:grey;
+   width:20rex;
+   height:20rex;
+}
+.a >p{
+   background-color:green;
+   color:white;
+}
+.a p{
+   background-color:red;
+   font-size:20px;
+   margin:10px;
+
+}
+.a p:hover{
+   color:rgb(16, 179, 184);
+   transform:scaleX(20px);
+}
+.a >p:hover{
+   background-color:blue;
+}

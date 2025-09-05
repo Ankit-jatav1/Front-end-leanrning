@@ -1,0 +1,89 @@
+*{
+   box-sizing:border-box;
+}
+body{
+   background:#f5f5f5;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   margin:0px;
+}
+.form-container{
+   width:400px;
+   height:350px;
+   margin-top:20rex;
+   background:#fffdfd;
+   border-radius:10px;
+   padding:30px;
+   box-shadow:0px 0px 100px rgb(171, 171, 238);
+}
+#form-head{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight:400;
+   font-size:24px;
+   line-height: 36px;
+   color:rgb(0,0,0);
+   text-align:center;
+}
+#sign-in{
+   font-size:20px;
+   margin-bottom:10px;
+   font-family:'Courier New', Courier, monospace;
+   font-weight:300px;
+}
+#email-label{
+   font-weight:400px;
+   color:grey;
+   margin-left:0px;
+   margin-bottom:20px;
+   font-size:15px;
+}
+#email{
+  width:350px;
+  height:50px;
+  border-radius:5px;
+  margin-top:20px;
+  padding:10px;
+  border:1px solid rgb(224, 220, 220);
+}
+#email:active{
+   border:1px solid blue;
+}
+
+#continue-button{
+   display:block;
+   width:350px;
+   height:50px;
+   font-size:15px;
+   background:#005BD3;
+   border-radius:10px;
+   border:none;
+   margin-top:15px;
+   color:white;
+   font-weight:bolder;
+   font-family:Arial, Helvetica, sans-serif;
+   cursor:pointer;
+}
+#continue-button:hover{
+   background:#024aa7;
+}
+.form-links{
+   margin-left:10px;
+   padding-left:0px;
+}
+.form-links li{
+   list-style:none;
+   display:inline-block;
+   text-decoration:none;
+   margin-right:10px;
+   
+}
+.form-links li:hover{
+   text-decoration:underline;
+}
+
+.form-links a{
+   text-decoration:none;
+   color:rgb(126, 126, 247);  
+   
+}

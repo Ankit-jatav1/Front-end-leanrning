@@ -1,0 +1,2 @@
+alert( "change applied");
+document

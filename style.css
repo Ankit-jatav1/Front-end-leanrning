@@ -1,0 +1,12 @@
+.conrtainer{
+   width:200px;
+   height:200px;
+   display:inline-box;
+  
+}
+
+.container #box1{
+   background-color: red;
+   display:inline-box;
+
+}
